@@ -1,0 +1,1 @@
+/home/zhs/scip/scip_test_engine/check/bin/cplex_callback_ndp instances/testeasy/egout.mps    "SETTING=/home/zhs/scip/scip_test_engine/check/settings/.set TIME=7200 SEED=0 MINGAP=0 MEM=32768 SOL=results/default/solutions/testeasy.egout.0.cplex_callback_ndp.1threads.7200s.sol"

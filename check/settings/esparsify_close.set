@@ -1,0 +1,55 @@
+# priority of presolver <extended_sparsify>
+# [type: int, advanced: TRUE, range: [-536870912,536870911], default: -230000]
+presolving/extended_sparsify/priority = -230000
+
+# maximal number of presolving rounds the presolver participates in (-1: no limit)
+# [type: int, advanced: FALSE, range: [-1,2147483647], default: -1]
+presolving/extended_sparsify/maxrounds = 0
+
+# timing mask of presolver <extended_sparsify> (4:FAST, 8:MEDIUM, 16:EXHAUSTIVE, 32:FINAL)
+# [type: int, advanced: TRUE, range: [4,60], default: 16]
+presolving/extended_sparsify/timing = 16
+
+# should extended sparsify presolver be copied to sub-SCIPs?
+# [type: bool, advanced: TRUE, range: {TRUE,FALSE}, default: TRUE]
+presolving/extended_sparsify/enablecopy = TRUE
+
+# scaling ratio
+# [type: int, advanced: TRUE, range: [-1,2147483647], default: 1000]
+presolving/extended_sparsify/scaling_ratio = 1000
+
+# maximal number of considered nonzeros within one column (-1: no limit)
+# [type: int, advanced: TRUE, range: [-1,2147483647], default: 20]
+presolving/extended_sparsify/maxcolnonzeros = 20
+
+# maximal number of considered nonzeros within one row (-1: no limit)
+# [type: int, advanced: TRUE, range: [-1,2147483647], default: 20]
+presolving/extended_sparsify/maxrownonzeros = 20
+
+# penalty of changing coefficient
+# [type: int, advanced: FALSE, range: [-2147483647,2147483647], default: 0]
+presolving/extended_sparsify/penalty = 0
+
+# minimal eliminated nonzeros per row
+# [type: int, advanced: FALSE, range: [-2147483647,2147483647], default: 3]
+presolving/extended_sparsify/cancel_row = 3
+
+# minimal eliminated nonzeros total
+# [type: int, advanced: FALSE, range: [-2147483647,2147483647], default: 10]
+presolving/extended_sparsify/cancel_tot = 10
+
+# number of calls to wait until next execution as a multiple of the number of useless calls
+# [type: real, advanced: TRUE, range: [0,1.79769313486232e+308], default: 2]
+presolving/extended_sparsify/waitingfac = 2
+
+# should we print the aggregation process?
+# [type: bool, advanced: TRUE, range: {TRUE,FALSE}, default: FALSE]
+presolving/extended_sparsify/isprint = FALSE
+
+# whether the number of nonzeros is accurately computed?
+# [type: bool, advanced: TRUE, range: {TRUE,FALSE}, default: TRUE]
+presolving/extended_sparsify/isaccurate = TRUE
+
+# whether do inequality?
+# [type: bool, advanced: TRUE, range: {TRUE,FALSE}, default: TRUE]
+presolving/extended_sparsify/inequality = TRUE

@@ -1,0 +1,22 @@
+# 以ubuntu20.04为基础
+FROM ubuntu:20.04
+# 设置工作目录
+WORKDIR /root
+# 从主机上拷贝scip到镜像的根目录
+COPY SCIPOptSuite-8.0.3-Linux-ubuntu.deb ./
+# 更新源的索引
+RUN apt-get update
+# 安装rlwrap
+RUN apt-get -y install rlwrap
+# 安装vim
+RUN apt-get -y install vim
+# 安装scip
+RUN dpkg --force-depends -i SCIPOptSuite-8.0.3-Linux-ubuntu.deb
+# 修复依赖
+RUN apt-get -y --fix-broken install
+# 为scip配置交互界面
+RUN printf "\n\n# ==========  configuration  ========== #\n# scip\nalias scip='rlwrap scip'" >> .bashrc
+# 删除安装包
+RUN rm -r SCIPOptSuite-8.0.3-Linux-ubuntu.deb
+# 创建算例目录
+RUN mkdir instances

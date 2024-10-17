@@ -1,0 +1,4 @@
+make test TEST=testeasy CLUSTER=off SEEDFILE=five OUTFILE=testeasy
+
+#make test TEST=testeasy CLUSTER=on SEEDFILE=five SETTING=fvs_close EXCLUSIVE=off OUTFILE=t1
+#make test TEST=testeasy CLUSTER=on SEEDFILE=five SETTING=fvs_open EXCLUSIVE=off OUTFILE=t2

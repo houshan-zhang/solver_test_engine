@@ -1,0 +1,95 @@
+#!/bin/bash
+
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp11 OUTFILE=alone/50/directed/my
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp21 OUTFILE=alone/50/directed/1
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp23 OUTFILE=alone/50/directed/3
+
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp11 OUTFILE=alone/50/undirected/my
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp21 OUTFILE=alone/50/undirected/1
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp23 OUTFILE=alone/50/undirected/3
+
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp11 OUTFILE=alone/50/bidirected/my
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp21 OUTFILE=alone/50/bidirected/1
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=50 SETTING=ndp/ndp23 OUTFILE=alone/50/bidirected/3
+
+##########
+
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp11 OUTFILE=alone/100/directed/my
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp21 OUTFILE=alone/100/directed/1
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp23 OUTFILE=alone/100/directed/3
+
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp11 OUTFILE=alone/100/undirected/my
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp21 OUTFILE=alone/100/undirected/1
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp23 OUTFILE=alone/100/undirected/3
+
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp11 OUTFILE=alone/100/bidirected/my
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp21 OUTFILE=alone/100/bidirected/1
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=100 SETTING=ndp/ndp23 OUTFILE=alone/100/bidirected/3
+
+##########
+
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp11 OUTFILE=alone/200/directed/my
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp21 OUTFILE=alone/200/directed/1
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp23 OUTFILE=alone/200/directed/3
+
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp11 OUTFILE=alone/200/undirected/my
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp21 OUTFILE=alone/200/undirected/1
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp23 OUTFILE=alone/200/undirected/3
+
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp11 OUTFILE=alone/200/bidirected/my
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp21 OUTFILE=alone/200/bidirected/1
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=200 SETTING=ndp/ndp23 OUTFILE=alone/200/bidirected/3
+
+##########
+
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp11 OUTFILE=alone/300/directed/my
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp21 OUTFILE=alone/300/directed/1
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp23 OUTFILE=alone/300/directed/3
+
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp11 OUTFILE=alone/300/undirected/my
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp21 OUTFILE=alone/300/undirected/1
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp23 OUTFILE=alone/300/undirected/3
+
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp11 OUTFILE=alone/300/bidirected/my
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp21 OUTFILE=alone/300/bidirected/1
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=300 SETTING=ndp/ndp23 OUTFILE=alone/300/bidirected/3
+
+##########
+
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp11 OUTFILE=alone/500/directed/my
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp21 OUTFILE=alone/500/directed/1
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp23 OUTFILE=alone/500/directed/3
+
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp11 OUTFILE=alone/500/undirected/my
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp21 OUTFILE=alone/500/undirected/1
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp23 OUTFILE=alone/500/undirected/3
+
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp11 OUTFILE=alone/500/bidirected/my
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp21 OUTFILE=alone/500/bidirected/1
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=500 SETTING=ndp/ndp23 OUTFILE=alone/500/bidirected/3
+
+##########
+##########
+##########
+
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp0 OUTFILE=directed/0
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp0 OUTFILE=undirected/0
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp0 OUTFILE=bidirected/0
+
+make test TEST=directed CLUSTER=on MPI=on JC=32 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp3 OUTFILE=directed/3
+make test TEST=undirected CLUSTER=on MPI=on JC=32 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp3 OUTFILE=undirected/3
+make test TEST=bidirected CLUSTER=on MPI=on JC=32 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp3 OUTFILE=bidirected/3
+
+##########
+
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-1 OUTFILE=directed/a
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-2 OUTFILE=directed/b
+make test TEST=directed CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-3 OUTFILE=directed/c
+
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-1 OUTFILE=undirected/a
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-2 OUTFILE=undirected/b
+make test TEST=undirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-3 OUTFILE=undirected/c
+
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-1 OUTFILE=bidirected/a
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-2 OUTFILE=bidirected/b
+make test TEST=bidirected CLUSTER=on MPI=on JC=16 SOLVER=cplex_callback_ndp TIME=7200 SETTING=ndp/ndp-3 OUTFILE=bidirected/c
